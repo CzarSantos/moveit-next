@@ -1,0 +1,22 @@
+/* Pagina geral */
+
+.container{
+    height: 100vh;/* altura total */
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;/* abaixo do outro */
+    
+
+}
+
+.container section{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* duas colunas */
+    gap: 6.25rem;/* espaçamento */
+    align-content: center;
+    margin-top: 6rem;
+    
+}
