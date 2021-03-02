@@ -6,7 +6,7 @@ export function Profile() {
     const { level } = useContext(ChallengesContext);
     return (
         <div className={styles.profileContainer}>
-            <img src="https://github.com/CzarSantos.png" alt="Julio Cesar" />
+            <img src="../icons/LIMBO.png" alt="Julio Cesar" />
             <div>
                 <strong>Julio Czar</strong>
                 <p>
@@ -20,4 +20,3 @@ export function Profile() {
 
 }
 
-/* verificado 10mn */

@@ -29,7 +29,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
 
 
     //funcionalidade minutos segundos
-    const [time, setTime] = useState(25 * 60)//25 mn em sg
+    const [time, setTime] = useState(0.2 * 60)//25 mn em sg
 
     //armazena se contdown ativo ou não
     const [isActive, setIsActive] = useState(false);
